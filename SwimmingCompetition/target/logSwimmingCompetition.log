@@ -1,0 +1,890 @@
+31 mar. 2023 15:16:24,643 INFO  com.example.swimmingcompetition.repository.RepoBDAccount 25 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase} 
+31 mar. 2023 15:16:24,646 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 25 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase} 
+31 mar. 2023 15:16:24,648 INFO  com.example.swimmingcompetition.repository.RepoBDTask 23 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase} 
+31 mar. 2023 15:16:24,649 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 26 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase} 
+31 mar. 2023 15:16:37,081 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,082 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,082 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,083 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,083 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,201 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@43fc8ca3)
+31 mar. 2023 15:16:37,204 INFO  com.example.swimmingcompetition.repository.RepoBDAccount 49 ifExistAccount - Am gasit: 13
+31 mar. 2023 15:16:37,462 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,463 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,463 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,463 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,463 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,464 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34ad8208)
+31 mar. 2023 15:16:37,466 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 103 findAll - [com.example.swimmingcompetition.domain.Participant@749e37e, com.example.swimmingcompetition.domain.Participant@e320492, com.example.swimmingcompetition.domain.Participant@747cc84c]
+31 mar. 2023 15:16:37,466 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,466 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,467 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,467 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,467 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,468 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@35058b01)
+31 mar. 2023 15:16:37,470 INFO  com.example.swimmingcompetition.repository.RepoBDTask 128 findAll - [com.example.swimmingcompetition.domain.Task@dbee711, com.example.swimmingcompetition.domain.Task@48679178, com.example.swimmingcompetition.domain.Task@7c4af2b2, com.example.swimmingcompetition.domain.Task@39d53598]
+31 mar. 2023 15:16:37,480 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,481 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,481 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,481 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,481 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,482 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@145fdaad)
+31 mar. 2023 15:16:37,483 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@179ec4fb, com.example.swimmingcompetition.domain.ParticipantTask@6780bb44]
+31 mar. 2023 15:16:37,490 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,491 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,491 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,491 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,491 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,492 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27221846)
+31 mar. 2023 15:16:37,493 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@18cc4885, com.example.swimmingcompetition.domain.ParticipantTask@27cb4aad]
+31 mar. 2023 15:16:37,493 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,493 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,494 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,494 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,494 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,495 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@eb65f6a)
+31 mar. 2023 15:16:37,495 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@39e186d2, com.example.swimmingcompetition.domain.ParticipantTask@4393690b]
+31 mar. 2023 15:16:37,496 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,497 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,497 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,497 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,497 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,498 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ef0cdf6)
+31 mar. 2023 15:16:37,499 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@281884d, com.example.swimmingcompetition.domain.ParticipantTask@376349d9]
+31 mar. 2023 15:16:37,500 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,500 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,500 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,500 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,500 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,501 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6fe0a50f)
+31 mar. 2023 15:16:37,501 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@57c74a78]
+31 mar. 2023 15:16:37,502 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,502 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,502 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,502 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,503 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,503 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@590a732d)
+31 mar. 2023 15:16:37,504 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@740ac454]
+31 mar. 2023 15:16:37,505 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,505 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,505 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,505 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,505 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,506 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1ea8cf07)
+31 mar. 2023 15:16:37,506 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@73d1c220]
+31 mar. 2023 15:16:37,507 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,507 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,507 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,508 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,508 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,508 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@79c8446c)
+31 mar. 2023 15:16:37,509 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@5b421765]
+31 mar. 2023 15:16:37,509 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,509 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,510 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,510 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,510 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,510 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34a3bfd)
+31 mar. 2023 15:16:37,511 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@7e772976]
+31 mar. 2023 15:16:37,511 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,512 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,512 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,512 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,512 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,513 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4527e9f0)
+31 mar. 2023 15:16:37,513 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@e95370e]
+31 mar. 2023 15:16:37,515 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,515 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,516 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,516 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,516 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,517 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29ec5d27)
+31 mar. 2023 15:16:37,517 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@74e32458, com.example.swimmingcompetition.domain.ParticipantTask@4b6bdd29]
+31 mar. 2023 15:16:37,521 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,521 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,522 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,522 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,522 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,522 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74cb3030)
+31 mar. 2023 15:16:37,523 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@483d96f, com.example.swimmingcompetition.domain.ParticipantTask@cd143e2]
+31 mar. 2023 15:16:37,526 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,526 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,526 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,527 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,527 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,527 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@43dfe7f2)
+31 mar. 2023 15:16:37,528 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@3ebc8851]
+31 mar. 2023 15:16:37,532 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:37,532 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:37,532 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:37,532 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:37,532 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:37,533 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@578c7cc6)
+31 mar. 2023 15:16:37,534 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@16a2af16]
+31 mar. 2023 15:16:41,904 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:41,904 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:41,905 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:41,905 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:41,905 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:41,906 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5707d3c6)
+31 mar. 2023 15:16:41,906 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@6f2c542e]
+31 mar. 2023 15:16:41,906 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:41,907 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:41,907 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:41,907 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:41,907 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:41,907 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@56ced50b)
+31 mar. 2023 15:16:41,908 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 76 findOne - Am gasit: com.example.swimmingcompetition.domain.Participant@546d2384
+31 mar. 2023 15:16:41,908 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:41,908 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:41,908 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:41,909 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:41,909 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:41,909 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d1d532c)
+31 mar. 2023 15:16:41,910 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@309ded85, com.example.swimmingcompetition.domain.ParticipantTask@105b1010, com.example.swimmingcompetition.domain.ParticipantTask@2d17609c]
+31 mar. 2023 15:16:41,910 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:41,910 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:41,910 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:41,910 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:41,910 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:41,911 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ac4d221)
+31 mar. 2023 15:16:41,911 INFO  com.example.swimmingcompetition.repository.RepoBDTask 100 findOne - Am gasit: com.example.swimmingcompetition.domain.Task@256ae939
+31 mar. 2023 15:16:41,911 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:41,911 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:41,912 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:41,912 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:41,912 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:41,912 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d79a614)
+31 mar. 2023 15:16:41,913 INFO  com.example.swimmingcompetition.repository.RepoBDTask 100 findOne - Am gasit: com.example.swimmingcompetition.domain.Task@7bfc28a7
+31 mar. 2023 15:16:41,913 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:41,913 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:41,913 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:41,913 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:41,913 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:41,914 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27f5a823)
+31 mar. 2023 15:16:41,914 INFO  com.example.swimmingcompetition.repository.RepoBDTask 100 findOne - Am gasit: com.example.swimmingcompetition.domain.Task@55a4aec5
+31 mar. 2023 15:16:43,323 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,323 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,323 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,324 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,324 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,324 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63bee34f)
+31 mar. 2023 15:16:43,325 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 103 findAll - [com.example.swimmingcompetition.domain.Participant@17d9a69d, com.example.swimmingcompetition.domain.Participant@643113bd, com.example.swimmingcompetition.domain.Participant@70b7df98]
+31 mar. 2023 15:16:43,326 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,326 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,326 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,326 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,326 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,327 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6487fe5a)
+31 mar. 2023 15:16:43,327 INFO  com.example.swimmingcompetition.repository.RepoBDTask 128 findAll - [com.example.swimmingcompetition.domain.Task@3eb05119, com.example.swimmingcompetition.domain.Task@52701189, com.example.swimmingcompetition.domain.Task@1c755f40, com.example.swimmingcompetition.domain.Task@475b17ba]
+31 mar. 2023 15:16:43,329 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,329 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,329 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,329 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,329 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,330 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e51d31c)
+31 mar. 2023 15:16:43,330 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@5c5b8e77, com.example.swimmingcompetition.domain.ParticipantTask@3cbc0714]
+31 mar. 2023 15:16:43,332 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,332 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,332 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,333 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,333 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,333 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@26a2e298)
+31 mar. 2023 15:16:43,334 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@2adbcf99, com.example.swimmingcompetition.domain.ParticipantTask@a2f4c60]
+31 mar. 2023 15:16:43,334 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,335 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,335 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,335 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,335 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,335 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@141163ac)
+31 mar. 2023 15:16:43,336 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@2516e594, com.example.swimmingcompetition.domain.ParticipantTask@51c541a8]
+31 mar. 2023 15:16:43,337 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,337 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,337 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,337 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,337 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,337 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21794bbc)
+31 mar. 2023 15:16:43,338 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@3e6a503c, com.example.swimmingcompetition.domain.ParticipantTask@2cc23820]
+31 mar. 2023 15:16:43,338 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,338 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,339 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,339 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,339 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,339 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5771f411)
+31 mar. 2023 15:16:43,340 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@3c3e71e8]
+31 mar. 2023 15:16:43,340 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,340 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,340 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,340 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,340 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,340 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50392de3)
+31 mar. 2023 15:16:43,341 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@6d070cfc]
+31 mar. 2023 15:16:43,341 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,341 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,341 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,342 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,342 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,342 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@350ebc31)
+31 mar. 2023 15:16:43,343 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@7a703a49]
+31 mar. 2023 15:16:43,343 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,343 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,343 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,343 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,343 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,344 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@633f46d1)
+31 mar. 2023 15:16:43,344 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@368ad6a6]
+31 mar. 2023 15:16:43,344 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,344 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,345 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,345 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,345 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,345 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76250b72)
+31 mar. 2023 15:16:43,346 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@dfcd58d]
+31 mar. 2023 15:16:43,346 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,346 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,346 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,346 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,346 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,347 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@14ec132d)
+31 mar. 2023 15:16:43,348 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@74b3c8f0]
+31 mar. 2023 15:16:43,349 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,349 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,349 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,349 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,349 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,350 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6cd1ece8)
+31 mar. 2023 15:16:43,350 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@7bec89a9, com.example.swimmingcompetition.domain.ParticipantTask@30bf3758]
+31 mar. 2023 15:16:43,352 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,353 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,353 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,353 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,353 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,353 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33c7727)
+31 mar. 2023 15:16:43,354 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@2fdbae9d, com.example.swimmingcompetition.domain.ParticipantTask@cf435b8]
+31 mar. 2023 15:16:43,356 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,356 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,356 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,356 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,356 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,357 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5233fe38)
+31 mar. 2023 15:16:43,357 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@25be3cb]
+31 mar. 2023 15:16:43,359 TRACE com.example.swimmingcompetition.repository.JdbcUtils 48 getConnection - Enter
+31 mar. 2023 15:16:43,359 TRACE com.example.swimmingcompetition.repository.JdbcUtils 25 getNewConnection - Enter
+31 mar. 2023 15:16:43,359 INFO  com.example.swimmingcompetition.repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 15:16:43,359 INFO  com.example.swimmingcompetition.repository.JdbcUtils 31 getNewConnection - user: null
+31 mar. 2023 15:16:43,359 INFO  com.example.swimmingcompetition.repository.JdbcUtils 32 getNewConnection - pass: null
+31 mar. 2023 15:16:43,360 TRACE com.example.swimmingcompetition.repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@558cb7dc)
+31 mar. 2023 15:16:43,360 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 53 getParticipantTasks - [com.example.swimmingcompetition.domain.ParticipantTask@598d25ff]
+31 mar. 2023 22:01:40,129 INFO  com.example.swimmingcompetition.repository.RepoBDAccount 24 <init> - I initialize RepoBDAccount with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase}
+31 mar. 2023 22:01:40,132 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 24 <init> - I initialize RepoBDParticipant with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase}
+31 mar. 2023 22:01:40,134 INFO  com.example.swimmingcompetition.repository.RepoBDTask 25 <init> - I initialize RepoBDTask with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase}
+31 mar. 2023 22:01:40,135 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 24 <init> - I initialize RepoBDParticipantTask with properties: {jdbc.url=jdbc:sqlite:concursInotDatabase}
+31 mar. 2023 22:03:06,934 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:06,935 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:06,937 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:06,937 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:06,937 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,045 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7a3ea5dc)
+31 mar. 2023 22:03:07,047 INFO  com.example.swimmingcompetition.repository.RepoBDAccount 47 ifExistAccount - ifExist - I found: 13
+31 mar. 2023 22:03:07,284 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,285 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,285 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,285 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,286 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,286 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1aeb35a9)
+31 mar. 2023 22:03:07,288 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 100 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Participant@391ce2de, com.example.swimmingcompetition.domain.Participant@7a19de29, com.example.swimmingcompetition.domain.Participant@6ac9d0cc]
+31 mar. 2023 22:03:07,288 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,288 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,289 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,289 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,289 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,289 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@110f6a91)
+31 mar. 2023 22:03:07,291 INFO  com.example.swimmingcompetition.repository.RepoBDTask 149 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Task@5ae1661, com.example.swimmingcompetition.domain.Task@284dbbca, com.example.swimmingcompetition.domain.Task@29111505, com.example.swimmingcompetition.domain.Task@7c054921]
+31 mar. 2023 22:03:07,300 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,300 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,301 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,301 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,301 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,301 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59f01cf6)
+31 mar. 2023 22:03:07,302 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@1e942a2, com.example.swimmingcompetition.domain.ParticipantTask@35c70bc4]
+31 mar. 2023 22:03:07,309 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,309 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,309 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,309 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,309 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,310 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d79d803)
+31 mar. 2023 22:03:07,310 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@6bcf44ca, com.example.swimmingcompetition.domain.ParticipantTask@1da163e4]
+31 mar. 2023 22:03:07,311 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,311 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,311 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,311 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,311 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,312 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cb810a3)
+31 mar. 2023 22:03:07,313 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@5fc26af7, com.example.swimmingcompetition.domain.ParticipantTask@4eba8cd1]
+31 mar. 2023 22:03:07,314 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,314 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,314 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,315 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,315 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,315 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@581278a1)
+31 mar. 2023 22:03:07,316 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@4f34608, com.example.swimmingcompetition.domain.ParticipantTask@48aa11b3]
+31 mar. 2023 22:03:07,317 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,317 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,317 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,317 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,317 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,318 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52ecc073)
+31 mar. 2023 22:03:07,318 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@19f07dff]
+31 mar. 2023 22:03:07,318 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,318 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,319 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,319 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,319 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,319 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72dbbcf)
+31 mar. 2023 22:03:07,320 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@1f121510]
+31 mar. 2023 22:03:07,320 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,320 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,321 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,321 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,321 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,321 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b49a1d9)
+31 mar. 2023 22:03:07,322 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@31cc2eca]
+31 mar. 2023 22:03:07,322 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,323 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,323 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,323 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,323 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,324 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b5518ff)
+31 mar. 2023 22:03:07,324 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@54603c10]
+31 mar. 2023 22:03:07,324 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,324 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,325 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,325 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,325 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,325 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@32c1082c)
+31 mar. 2023 22:03:07,326 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@622bcac0]
+31 mar. 2023 22:03:07,326 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,326 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,327 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,327 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,327 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,327 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@114ab49a)
+31 mar. 2023 22:03:07,328 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@441f9a1f]
+31 mar. 2023 22:03:07,330 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,330 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,330 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,330 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,330 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,331 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5cb742aa)
+31 mar. 2023 22:03:07,331 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7d392539, com.example.swimmingcompetition.domain.ParticipantTask@7d5b4aee]
+31 mar. 2023 22:03:07,334 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,335 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,335 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,335 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,335 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,335 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@210875bb)
+31 mar. 2023 22:03:07,336 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@37d79394, com.example.swimmingcompetition.domain.ParticipantTask@48a0a016]
+31 mar. 2023 22:03:07,339 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,339 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,339 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,339 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,340 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,340 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b890c9e)
+31 mar. 2023 22:03:07,341 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@1fab188b]
+31 mar. 2023 22:03:07,343 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:07,344 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:07,344 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:07,344 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:07,344 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:07,344 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@fc853e6)
+31 mar. 2023 22:03:07,345 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7a8a9268]
+31 mar. 2023 22:03:12,625 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:12,625 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:12,626 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:12,626 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:12,626 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:12,627 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f156f6)
+31 mar. 2023 22:03:12,628 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7bb150ad]
+31 mar. 2023 22:03:12,629 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:12,629 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:12,629 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:12,629 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:12,629 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:12,630 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@415003ad)
+31 mar. 2023 22:03:12,630 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 74 findOne - findOne - I found: com.example.swimmingcompetition.domain.Participant@19b793be
+31 mar. 2023 22:03:12,631 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:12,631 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:12,631 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:12,631 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:12,631 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:12,631 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10783098)
+31 mar. 2023 22:03:12,632 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@613d2e02, com.example.swimmingcompetition.domain.ParticipantTask@20b114e3, com.example.swimmingcompetition.domain.ParticipantTask@53e5928]
+31 mar. 2023 22:03:12,632 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:12,632 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:12,632 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:12,632 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:12,632 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:12,633 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@549345e7)
+31 mar. 2023 22:03:12,633 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@5cd62c49
+31 mar. 2023 22:03:12,633 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:12,633 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:12,634 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:12,634 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:12,634 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:12,634 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74682d3c)
+31 mar. 2023 22:03:12,634 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@3e8cd80
+31 mar. 2023 22:03:12,635 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:12,635 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:12,635 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:12,635 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:12,635 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:12,635 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d1a0c67)
+31 mar. 2023 22:03:12,636 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@20c3d5e9
+31 mar. 2023 22:03:13,976 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,976 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,976 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,976 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,977 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,977 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@797682c6)
+31 mar. 2023 22:03:13,978 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 100 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Participant@56a30eb8, com.example.swimmingcompetition.domain.Participant@5f455b63, com.example.swimmingcompetition.domain.Participant@44c0d0b2]
+31 mar. 2023 22:03:13,978 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,978 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,979 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,979 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,979 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,979 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@96d1a5e)
+31 mar. 2023 22:03:13,980 INFO  com.example.swimmingcompetition.repository.RepoBDTask 149 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Task@47f50305, com.example.swimmingcompetition.domain.Task@321ed6db, com.example.swimmingcompetition.domain.Task@7099d56a, com.example.swimmingcompetition.domain.Task@11479ecd]
+31 mar. 2023 22:03:13,982 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,982 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,982 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,982 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,982 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,983 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76e3ee68)
+31 mar. 2023 22:03:13,984 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@20e24b15, com.example.swimmingcompetition.domain.ParticipantTask@251d77d5]
+31 mar. 2023 22:03:13,985 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,985 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,985 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,985 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,986 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,986 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46e8932d)
+31 mar. 2023 22:03:13,987 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@215a3078, com.example.swimmingcompetition.domain.ParticipantTask@173a48a4]
+31 mar. 2023 22:03:13,987 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,987 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,987 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,987 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,987 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,988 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@65e230a5)
+31 mar. 2023 22:03:13,989 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@6711a6cf, com.example.swimmingcompetition.domain.ParticipantTask@173883a5]
+31 mar. 2023 22:03:13,990 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,990 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,990 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,990 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,990 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,991 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5282868e)
+31 mar. 2023 22:03:13,992 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@2611f363, com.example.swimmingcompetition.domain.ParticipantTask@4cdc1eb0]
+31 mar. 2023 22:03:13,992 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,992 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,992 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,992 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,992 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,993 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1faa9925)
+31 mar. 2023 22:03:13,993 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@595adaa8]
+31 mar. 2023 22:03:13,994 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,994 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,994 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,994 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,994 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,995 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@70f9b00b)
+31 mar. 2023 22:03:13,995 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@5c7c093a]
+31 mar. 2023 22:03:13,995 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,996 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,996 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,996 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,996 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,997 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1754c021)
+31 mar. 2023 22:03:13,997 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@1854c7f9]
+31 mar. 2023 22:03:13,997 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,998 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,998 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,998 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,998 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:13,998 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25905510)
+31 mar. 2023 22:03:13,999 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@1999ad41]
+31 mar. 2023 22:03:13,999 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:13,999 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:13,999 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:13,999 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:13,999 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:14,000 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28fd239b)
+31 mar. 2023 22:03:14,000 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@16285272]
+31 mar. 2023 22:03:14,000 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:14,001 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:14,001 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:14,001 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:14,001 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:14,001 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3137bd72)
+31 mar. 2023 22:03:14,002 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@6590edb0]
+31 mar. 2023 22:03:14,003 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:14,003 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:14,003 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:14,003 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:14,003 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:14,004 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6aa36ef5)
+31 mar. 2023 22:03:14,004 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@31d88bb9, com.example.swimmingcompetition.domain.ParticipantTask@7e1693e9]
+31 mar. 2023 22:03:14,007 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:14,007 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:14,007 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:14,007 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:14,007 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:14,008 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b152894)
+31 mar. 2023 22:03:14,008 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@281ca847, com.example.swimmingcompetition.domain.ParticipantTask@5c53ab03]
+31 mar. 2023 22:03:14,010 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:14,010 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:14,010 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:14,011 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:14,011 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:14,011 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7acd8609)
+31 mar. 2023 22:03:14,011 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@6dce294b]
+31 mar. 2023 22:03:14,013 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:14,013 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:14,013 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:14,013 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:14,013 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:14,014 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4ce1c4f5)
+31 mar. 2023 22:03:14,014 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@d26f9a8]
+31 mar. 2023 22:03:15,472 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,472 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,472 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,472 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,472 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,472 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e847c41)
+31 mar. 2023 22:03:15,473 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7dc465cb, com.example.swimmingcompetition.domain.ParticipantTask@2888cd37]
+31 mar. 2023 22:03:15,473 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,473 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,473 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,473 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,473 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,474 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@353db0f9)
+31 mar. 2023 22:03:15,474 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 74 findOne - findOne - I found: com.example.swimmingcompetition.domain.Participant@1876a46b
+31 mar. 2023 22:03:15,474 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,474 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,474 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,474 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,474 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,475 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@46c27093)
+31 mar. 2023 22:03:15,475 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 74 findOne - findOne - I found: com.example.swimmingcompetition.domain.Participant@28cdec09
+31 mar. 2023 22:03:15,475 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,475 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,476 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,476 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,476 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,476 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@70af3b91)
+31 mar. 2023 22:03:15,477 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@5d579c13, com.example.swimmingcompetition.domain.ParticipantTask@84429c2, com.example.swimmingcompetition.domain.ParticipantTask@4f2e3167]
+31 mar. 2023 22:03:15,477 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,477 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,477 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,477 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,477 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,477 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4654f8a0)
+31 mar. 2023 22:03:15,478 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@2782437d
+31 mar. 2023 22:03:15,478 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,478 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,478 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,478 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,478 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,478 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e217476)
+31 mar. 2023 22:03:15,479 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@30bac9dc
+31 mar. 2023 22:03:15,479 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,479 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,479 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,479 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,479 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,480 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51cab693)
+31 mar. 2023 22:03:15,480 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@64668e7c
+31 mar. 2023 22:03:15,480 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,480 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,480 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,481 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,481 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,481 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6161c442)
+31 mar. 2023 22:03:15,482 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7f3059b, com.example.swimmingcompetition.domain.ParticipantTask@38945d8]
+31 mar. 2023 22:03:15,482 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,483 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,483 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,483 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,483 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,484 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@53cc2ebb)
+31 mar. 2023 22:03:15,484 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@3c60a354
+31 mar. 2023 22:03:15,484 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:15,484 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:15,484 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:15,486 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:15,486 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:15,486 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@23a0a69e)
+31 mar. 2023 22:03:15,486 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@6ace80b7
+31 mar. 2023 22:03:17,598 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,598 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,599 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,599 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,599 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,600 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f483eac)
+31 mar. 2023 22:03:17,600 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 100 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Participant@5c515283, com.example.swimmingcompetition.domain.Participant@20d4f963, com.example.swimmingcompetition.domain.Participant@6f1a4aff]
+31 mar. 2023 22:03:17,601 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,601 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,601 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,601 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,601 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,602 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4189a4ee)
+31 mar. 2023 22:03:17,603 INFO  com.example.swimmingcompetition.repository.RepoBDTask 149 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Task@179a2316, com.example.swimmingcompetition.domain.Task@1002cf67, com.example.swimmingcompetition.domain.Task@2df2322a, com.example.swimmingcompetition.domain.Task@21505dae]
+31 mar. 2023 22:03:17,604 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,604 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,604 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,604 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,604 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,605 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4ec58854)
+31 mar. 2023 22:03:17,605 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@2f72e984, com.example.swimmingcompetition.domain.ParticipantTask@7443babd]
+31 mar. 2023 22:03:17,607 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,607 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,607 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,608 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,608 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,608 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3a68d2ca)
+31 mar. 2023 22:03:17,609 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@9b8da8c, com.example.swimmingcompetition.domain.ParticipantTask@52c66b4b]
+31 mar. 2023 22:03:17,609 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,610 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,610 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,610 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,610 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,610 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@278f4a20)
+31 mar. 2023 22:03:17,611 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@5b8d2299, com.example.swimmingcompetition.domain.ParticipantTask@14aeffde]
+31 mar. 2023 22:03:17,611 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,611 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,612 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,612 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,612 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,612 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75d35233)
+31 mar. 2023 22:03:17,613 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@28d0d8e3, com.example.swimmingcompetition.domain.ParticipantTask@1a7bae8a]
+31 mar. 2023 22:03:17,613 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,614 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,614 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,614 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,614 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,614 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7948f214)
+31 mar. 2023 22:03:17,615 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@166575c4]
+31 mar. 2023 22:03:17,615 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,615 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,615 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,615 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,615 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,615 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38dca02b)
+31 mar. 2023 22:03:17,616 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7f144644]
+31 mar. 2023 22:03:17,616 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,616 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,617 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,617 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,617 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,617 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41f2c3e0)
+31 mar. 2023 22:03:17,617 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7c04554f]
+31 mar. 2023 22:03:17,618 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,618 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,618 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,618 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,618 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,618 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21847f1c)
+31 mar. 2023 22:03:17,619 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7c7f3b0e]
+31 mar. 2023 22:03:17,619 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,619 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,619 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,619 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,619 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,619 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b450aa2)
+31 mar. 2023 22:03:17,620 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@75b58ca8]
+31 mar. 2023 22:03:17,620 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,620 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,620 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,620 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,620 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,621 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77cb619d)
+31 mar. 2023 22:03:17,621 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@72698321]
+31 mar. 2023 22:03:17,622 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,622 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,622 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,622 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,622 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,622 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7c569cdd)
+31 mar. 2023 22:03:17,623 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@2e6456c1, com.example.swimmingcompetition.domain.ParticipantTask@3aec3b52]
+31 mar. 2023 22:03:17,624 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,624 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,624 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,624 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,624 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,625 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@69b42857)
+31 mar. 2023 22:03:17,625 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@2da6123a, com.example.swimmingcompetition.domain.ParticipantTask@3941b873]
+31 mar. 2023 22:03:17,627 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,627 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,627 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,627 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,627 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,628 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@546a5ad)
+31 mar. 2023 22:03:17,628 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@1c6c888f]
+31 mar. 2023 22:03:17,630 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:17,630 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:17,630 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:17,630 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:17,630 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:17,630 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@28e0618c)
+31 mar. 2023 22:03:17,631 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@d9739df]
+31 mar. 2023 22:03:18,868 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:18,868 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:18,868 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:18,868 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:18,869 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:18,869 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d08aa8c)
+31 mar. 2023 22:03:18,870 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@369a66e7]
+31 mar. 2023 22:03:18,870 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:18,870 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:18,870 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:18,871 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:18,871 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:18,871 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@322746d5)
+31 mar. 2023 22:03:18,871 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 74 findOne - findOne - I found: com.example.swimmingcompetition.domain.Participant@256b8832
+31 mar. 2023 22:03:18,872 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:18,872 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:18,872 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:18,872 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:18,872 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:18,872 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3d2f1ad9)
+31 mar. 2023 22:03:18,873 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@5867eec5, com.example.swimmingcompetition.domain.ParticipantTask@507e0af2, com.example.swimmingcompetition.domain.ParticipantTask@292d22d7]
+31 mar. 2023 22:03:18,873 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:18,873 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:18,873 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:18,873 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:18,873 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:18,873 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c911cf9)
+31 mar. 2023 22:03:18,873 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@b67d668
+31 mar. 2023 22:03:18,873 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:18,873 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:18,874 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:18,874 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:18,874 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:18,874 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b6e646c)
+31 mar. 2023 22:03:18,874 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@6b95c04c
+31 mar. 2023 22:03:18,874 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:18,874 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:18,874 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:18,874 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:18,875 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:18,875 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f877f13)
+31 mar. 2023 22:03:18,875 INFO  com.example.swimmingcompetition.repository.RepoBDTask 123 findOne - findOne - I found: com.example.swimmingcompetition.domain.Task@3a662c1d
+31 mar. 2023 22:03:20,256 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,256 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,256 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,256 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,256 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,257 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@163cac2d)
+31 mar. 2023 22:03:20,257 INFO  com.example.swimmingcompetition.repository.RepoBDParticipant 100 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Participant@ba02dab, com.example.swimmingcompetition.domain.Participant@530cbac2, com.example.swimmingcompetition.domain.Participant@33db6d23]
+31 mar. 2023 22:03:20,258 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,258 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,258 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,258 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,258 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,259 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4075e2b1)
+31 mar. 2023 22:03:20,259 INFO  com.example.swimmingcompetition.repository.RepoBDTask 149 findAll - findAll - I found: [com.example.swimmingcompetition.domain.Task@4a325261, com.example.swimmingcompetition.domain.Task@7c5e3b4f, com.example.swimmingcompetition.domain.Task@1484f392, com.example.swimmingcompetition.domain.Task@7b0bfbd9]
+31 mar. 2023 22:03:20,260 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,261 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,261 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,261 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,261 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,261 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59492791)
+31 mar. 2023 22:03:20,262 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@740a8f46, com.example.swimmingcompetition.domain.ParticipantTask@6fa44ed6]
+31 mar. 2023 22:03:20,263 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,263 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,263 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,263 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,263 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,263 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@64bf8294)
+31 mar. 2023 22:03:20,264 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@6c86ae85, com.example.swimmingcompetition.domain.ParticipantTask@60650188]
+31 mar. 2023 22:03:20,264 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,264 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,264 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,264 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,264 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,265 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77923d80)
+31 mar. 2023 22:03:20,265 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@6f21aac4, com.example.swimmingcompetition.domain.ParticipantTask@368ac323]
+31 mar. 2023 22:03:20,266 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,266 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,266 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,266 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,266 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,266 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e2bfd3b)
+31 mar. 2023 22:03:20,267 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@1833b143, com.example.swimmingcompetition.domain.ParticipantTask@7aa64f0b]
+31 mar. 2023 22:03:20,267 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,267 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,267 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,267 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,267 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,268 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1ad518a7)
+31 mar. 2023 22:03:20,268 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@3b36fce3]
+31 mar. 2023 22:03:20,268 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,269 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,269 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,269 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,269 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,270 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3e0aeb6f)
+31 mar. 2023 22:03:20,270 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@761c35b2]
+31 mar. 2023 22:03:20,271 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,271 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,271 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,271 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,271 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,271 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@44be0bf6)
+31 mar. 2023 22:03:20,271 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@48e32666]
+31 mar. 2023 22:03:20,272 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,272 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,272 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,272 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,272 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,272 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@215bed86)
+31 mar. 2023 22:03:20,273 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@367dedba]
+31 mar. 2023 22:03:20,273 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,273 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,273 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,273 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,273 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,273 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2a8b138)
+31 mar. 2023 22:03:20,273 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@5329771d]
+31 mar. 2023 22:03:20,274 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,274 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,274 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,274 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,274 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,274 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2d609723)
+31 mar. 2023 22:03:20,274 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@74a9bf08]
+31 mar. 2023 22:03:20,275 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,275 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,275 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,275 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,275 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,276 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@246e6445)
+31 mar. 2023 22:03:20,276 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@6a1d5b8a, com.example.swimmingcompetition.domain.ParticipantTask@6716cc8]
+31 mar. 2023 22:03:20,277 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,277 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,277 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,277 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,277 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,278 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@35925b33)
+31 mar. 2023 22:03:20,278 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@25a8c9e2, com.example.swimmingcompetition.domain.ParticipantTask@7fa82856]
+31 mar. 2023 22:03:20,279 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,279 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,279 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,279 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,280 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,280 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@18462ca6)
+31 mar. 2023 22:03:20,281 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@7ce001d2]
+31 mar. 2023 22:03:20,282 TRACE com.example.swimmingcompetition.repository.JdbcUtils 60 getConnection - Enter
+31 mar. 2023 22:03:20,282 TRACE com.example.swimmingcompetition.repository.JdbcUtils 33 getNewConnection - Enter
+31 mar. 2023 22:03:20,282 INFO  com.example.swimmingcompetition.repository.JdbcUtils 38 getNewConnection - trying to connect to database ... jdbc:sqlite:concursInotDatabase
+31 mar. 2023 22:03:20,282 INFO  com.example.swimmingcompetition.repository.JdbcUtils 39 getNewConnection - user: null
+31 mar. 2023 22:03:20,282 INFO  com.example.swimmingcompetition.repository.JdbcUtils 40 getNewConnection - pass: null
+31 mar. 2023 22:03:20,283 TRACE com.example.swimmingcompetition.repository.JdbcUtils 69 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4bf07dfe)
+31 mar. 2023 22:03:20,283 INFO  com.example.swimmingcompetition.repository.RepoBDParticipantTask 51 getParticipantTasks - getPArticipantTask - I found:[com.example.swimmingcompetition.domain.ParticipantTask@3846c276]
